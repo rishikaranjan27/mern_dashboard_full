@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+}
+
+
+.sp {
+    background-image: linear-gradient(to bottom right, #F1F1FC, #b4b4f9);
+    height: 200vh;
+ 
+}
+
+
+.sp-dashboard-flex1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.sp-count {
+    width: 25vw;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.sp-top3 {
+    width: 25vw;
+    margin: 10px;
+}
+
+.sp-bottom3 {
+    width: 25vw;
+    margin: 10px;
+}
+
+
+
+
+.sp-dashboard-flex2 {
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+
+}
+
+
+.likelihood {
+    width: 25vw;
+    margin: 10px;
+}
+
+
+.relevance {
+    width: 25vw;
+    margin: 10px;
+}
+
+
+.intensity {
+    width: 25vw;
+    margin: 10px;
+}
+

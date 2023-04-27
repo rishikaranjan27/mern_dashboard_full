@@ -1,0 +1,222 @@
+span {
+    color: rgb(106, 106, 106);
+    cursor: pointer;
+  }
+
+
+
+.loadedData {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 13vw;
+    flex: 0.1;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+.main {
+    width: 87vw;
+    flex: 0.9;
+    padding: 20px;
+    /* background-color: #F1F1FC; */
+    background-image: linear-gradient(to bottom right, #F1F1FC, #b4b4f9);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: -8px 0 8px -8px #a6b6e1;
+}
+
+
+.defaultChart > * {
+    margin-bottom: 20px;
+}
+
+
+.filteredChart > * {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Sidebar */
+
+
+
+
+
+.panel-collapse {
+    overflow: hidden;
+    transition: max-height .5s ease;
+  }
+
+  
+.panel-close {
+    max-height: 0;
+  }
+
+
+
+.white__text {
+    display: flex;
+    align-items: center;
+    color: #6b70ac;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.white__text:hover {
+    background-color: #52459F;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+.black__text {
+    margin: 15px;
+    color: #342c67;
+    cursor: pointer;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #342c67;
+    cursor: pointer;
+}
+
+.logo-icon {
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: #52459F;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.logo-side {
+    color: #6b70ac;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+
+
+
+/* Main */
+
+
+
+
+h5 {
+    color: #52459F;
+    font-weight: 600;
+    font-size: larger;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+
+.likelihood__Chart {
+    width: 25vw;
+    max-height: 60vh;
+
+  
+}
+
+.relevance__Chart {
+    width: 45vw;
+    max-height: 60vh;
+
+  
+}
+
+
+.intensity__Chart {
+    max-height: 100vh;
+
+   
+}
+
+.topic__Chart {
+    max-height: 60vh;
+
+  
+    
+
+}
+
+.country__Chart {
+    width: 50vw;
+
+}
+
+
+.region__Chart {
+    width: 20vw;
+}
+
+
+
+
+.flex-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.chart {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #a6b6e1;
+}
+
+
+
+.chart:hover {
+    box-shadow: 0 0 10px #a6b6e1;
+}
+
+
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.filterData {
+    padding: 10px 10px;
+    width: fit-content;
+    border: 1.5px solid #b4b4f9;
+    border-radius: 10px;
+    color: #342c67;;
+}

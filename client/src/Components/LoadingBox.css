@@ -1,0 +1,189 @@
+
+.loader {
+  display: flex;
+  max-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+}
+
+
+
+.loader-sidebar {
+  width: 13vw;
+  flex: 0.1;
+  background-color: white;
+
+}
+
+
+.loader-sidebar-logo {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+
+.loader-sidebar-logo-icon{
+
+  padding: 18px; 
+  border-radius: 8px;
+  background-color: #DEDDDD;
+  /* background-color: #52459F; */
+  margin: 5px;
+
+}
+
+
+.loader-sidebar-logo-text{
+  background-color: #DEDDDD;
+  /* background-color: #342c67; */
+  padding: 12px 20px;
+
+
+}
+
+
+.loader-sidebar-option{
+
+  background-color: #F0F0F0;
+  /* background-color: #6b70ac; */
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding-top: 30px;
+  max-width: 70px;
+
+}
+
+
+
+.loader-main {
+  width: 87vw;
+  flex: 0.9;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, #f4f4f4, #DEDDDD);
+  /* background-image: linear-gradient(to bottom right, #F1F1FC, #b4b4f9); */
+  border-top-left-radius: 30px;
+}
+
+
+
+.loader-main-heading{
+    background-color: #DEDDDD;
+    /* background-color: #52459F; */
+    padding-top: 30px;
+    margin: 35px;
+    max-width: 150px;
+
+}
+
+
+
+
+.loader-main-flex {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+  width: 82vw;
+  height: 80vh;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+
+}
+
+
+.balls {
+  margin-top: 20vh;
+  display: flex;
+}
+
+.ball {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #868686;
+  /* background-color: black; */
+  margin-right: 20px;
+  animation: ball 0.5s ease infinite alternate;
+}
+
+.ball2 {
+  animation-delay: 0.1s;
+}
+
+
+.ball3 {
+  animation-delay: 0.2s;
+}
+
+
+
+@keyframes ball {
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+
+
+.custom-text {
+  font-weight: 500;
+  font-size: xx-large;
+  color: #C4C4C4;
+}
+
+
+
+
+
+
+
+  /* .loader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .balls {
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .ball {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+    animation: ball 0.5s ease infinite alternate;
+  }
+
+  .ball2 {
+    animation-delay: 0.1s;
+  }
+
+
+  .ball3 {
+    animation-delay: 0.2s;
+  }
+
+
+
+
+  @keyframes ball {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+
+
+
+  .custom-text {
+    font-weight: 100;
+  } */

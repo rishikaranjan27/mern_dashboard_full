@@ -1,0 +1,95 @@
+.subLoad {
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.subLoad-header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+}
+
+
+
+.subLoad-header-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 13vw;
+    flex: 0.1;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+
+
+.subLoad-header-logo {
+    border-radius: 8px;
+    background-color: #DEDDDD;
+    margin: 5px;
+    padding: 18px; 
+
+}
+
+.subLoad-header-text {
+    background-color: #DEDDDD;
+    width: 100px;
+    padding-top: 30px;
+}
+
+
+.subLoad-header-right {
+    width: 87vw;
+}
+
+
+.subLoad-header-right-heading {
+    background-color: #DEDDDD;
+    padding-top: 30px;
+    width: 300px;
+    margin:auto;
+}
+
+
+
+
+.subLoad-main {
+    background-image: linear-gradient(to bottom right, #f4f4f4, #DEDDDD);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.subLoad-main-subSection {
+    width: 90%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 30px;
+    height: 100vh;
+
+}
+
+
+
+
+
+.subLoader-main {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    width: 82vw;
+    height: 80vh;
+  
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+  }
